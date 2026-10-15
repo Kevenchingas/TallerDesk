@@ -12,6 +12,14 @@ Proyecto desarrollado por **Kevin · LionEdge**, centrado en organizar el trabaj
 ![Electron](https://img.shields.io/badge/Electron-243341?style=flat-square&logo=electron&logoColor=9FEAF9)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827)
 
+## Descargar para Windows
+
+[![Descargar TallerDesk 1.0.0](https://img.shields.io/badge/Descargar_TallerDesk_1.0.0-Windows_64_bits-2563EB?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kevenchingas/TallerDesk/releases/download/v1.0.0/TallerDesk-Setup-1.0.0.exe)
+
+**Software comercial.** La descarga es pública; para utilizar TallerDesk necesitas una cuenta y la autorización del desarrollador. Descargar o instalar el programa no activa el acceso. [Solicita información o acceso](https://github.com/Kevenchingas).
+
+[Ver detalles de la versión 1.0.0](https://github.com/Kevenchingas/TallerDesk/releases/tag/v1.0.0).
+
 ## Qué permite hacer
 
 | Área | Funciones |
@@ -37,7 +45,7 @@ Versión de escritorio **1.0.0**. El instalador se ha generado y se han ejecutad
 
 ## Presentación pública
 
-Esta ficha muestra el proyecto y las tecnologías utilizadas. **El código fuente, la configuración interna y los datos de los talleres no se publican aquí.** El instalador tampoco se ofrece como descarga pública en esta ficha.
+Esta ficha muestra el proyecto, las tecnologías utilizadas y la descarga del instalador. **El repositorio de desarrollo se mantiene privado y los datos de los talleres no se publican aquí.**
 
 Las etiquetas de tecnologías son descriptivas; no representan porcentajes automáticos de lenguajes calculados por GitHub.
 
