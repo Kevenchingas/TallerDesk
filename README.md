@@ -1,56 +1,70 @@
 # TallerDesk
 
-![Presentación de TallerDesk](assets/tallerdesk-banner.svg)
+**Tu taller, en orden.** Aplicación de escritorio para administrar talleres de motocicletas.
 
-**Aplicación de escritorio para administrar talleres de motocicletas.**
+![TallerDesk 2.0.0 en una computadora de escritorio](assets/tallerdesk-v2-desktop.png)
 
-Proyecto desarrollado por **Kevin · LionEdge**, centrado en organizar el trabajo del taller: desde la recepción de una moto hasta el cobro y la consulta de sus movimientos.
+Desarrollado por **Kevin · LionEdge**. Organiza la recepción de motocicletas, los servicios, el inventario y los cobros desde una interfaz oscura y minimalista.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+![Versión 2.0.0](https://img.shields.io/badge/Versión-2.0.0-EF3038?style=flat-square)
+![Windows 64 bits](https://img.shields.io/badge/Windows-64_bits-24292F?style=flat-square)
 ![Electron](https://img.shields.io/badge/Electron-243341?style=flat-square&logo=electron&logoColor=9FEAF9)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827)
 
-## Descargar para Windows
+## Nueva versión · 2.0.0
 
-[![Descargar TallerDesk 1.0.0](https://img.shields.io/badge/Descargar_TallerDesk_1.0.0-Windows_64_bits-2563EB?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kevenchingas/TallerDesk/releases/download/v1.0.0/TallerDesk-Setup-1.0.0.exe)
+[![Descargar TallerDesk 2.0.0](https://img.shields.io/badge/Descargar_TallerDesk_2.0.0-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.0/TallerDesk-Setup-2.0.0.exe)
 
-**Software comercial.** La descarga es pública; para utilizar TallerDesk necesitas una cuenta y la autorización del desarrollador. Descargar o instalar el programa no activa el acceso. [Solicita información o acceso](https://github.com/Kevenchingas).
+[Ver todos los cambios de la versión 2.0.0](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.0).
 
-[Ver detalles de la versión 1.0.0](https://github.com/Kevenchingas/TallerDesk/releases/tag/v1.0.0).
+**Software comercial.** La descarga es pública; para utilizar TallerDesk necesitas una cuenta autorizada por el desarrollador. Descargar o instalar el programa no activa el acceso. [Solicita información o una demostración](https://github.com/KevinJHernandez).
 
-## Qué permite hacer
+### Qué cambió
 
-| Área | Funciones |
+| Apartado | Novedades de la versión 2 |
 |---|---|
-| Clientes | Registro, edición, búsqueda e identificación de clientes y sus motocicletas. |
-| Servicios | Registro y seguimiento de trabajos, estados y cobros. |
-| Inventario | Productos, existencias y ventas. |
-| Caja | Apertura y cierre de cortes, movimientos e ingresos por fecha. |
-| Estadísticas | Gráfica semanal y comparación de ingresos entre dos días. |
-| Configuración | Colores de acento, tamaño de texto y estado de sincronización. |
+| Diseño | Interfaz minimalista, tonos grises, color de acento personalizable y ajustes para ventanas compactas. |
+| Clientes y servicios | Historial, motivos de cancelación y comprobantes con un diseño consistente para servicios terminados y cancelados. |
+| Ventas | Ticket compacto, cantidades alineadas, artículos personalizados e historial de cobros. |
+| Reembolsos | Devoluciones parciales o totales, motivo, autorización administrativa y regreso opcional de productos al stock. |
+| Inventario | Cantidades visibles, búsqueda, filtros y estados vacíos renovados. |
+| Corte | Panel lateral, apertura y cierre, movimientos de ventas, servicios y reembolsos. |
+| Estadísticas | Ingresos por día, comparación de fechas e identificación del día actual. |
+| Papelera | Selección múltiple, restauración y eliminación con autorización administrativa. |
+| Configuración | Pestañas para cuenta, apariencia, sincronización, seguridad y datos del programa. |
 
-## Decisiones de desarrollo
+### Así se ve
 
-- **Escritorio con Electron:** distribución mediante instalador para Windows de 64 bits.
-- **Interfaz con JavaScript, HTML y CSS:** tema oscuro, tablas de trabajo y gráficas SVG.
-- **Firebase Authentication y Cloud Firestore:** acceso por cuenta y organización de la información del taller.
-- **Operaciones locales con IndexedDB:** cola persistente y envío al recuperar conexión; incluye controles para reintentos y conflictos.
-- **Git y npm:** historial de cambios, compilación y pruebas locales.
+![Ventas de TallerDesk 2.0.0 en una laptop](assets/tallerdesk-v2-laptop.png)
 
-## Estado del proyecto
+*Montajes de presentación basados en pantallas del programa, con datos de demostración. El color del tema se puede personalizar.*
 
-Versión de escritorio **1.0.0**. El instalador se ha generado y se han ejecutado pruebas locales de operaciones sin conexión y sincronización simulada. La comprobación de sincronización con datos reales y la instalación en cada equipo de destino son pruebas adicionales.
+<details>
+<summary>Ver capturas del programa</summary>
 
-## Presentación pública
+![Inventario de TallerDesk 2.0.0 con stock visible](assets/tallerdesk-v2-inventory.png)
 
-Esta ficha muestra el proyecto, las tecnologías utilizadas y la descarga del instalador. **El repositorio de desarrollo se mantiene privado y los datos de los talleres no se publican aquí.**
+![Ticket de ventas de TallerDesk 2.0.0](assets/tallerdesk-v2-sales.png)
 
-Las etiquetas de tecnologías son descriptivas; no representan porcentajes automáticos de lenguajes calculados por GitHub.
+</details>
 
-## Contacto
+## Versión anterior · 1.0.0
 
-Para solicitar información o una demostración, visita [mi perfil de GitHub](https://github.com/Kevenchingas).
+La primera versión permanece disponible como referencia y descarga anterior.
 
-[← Volver a mi perfil](https://github.com/Kevenchingas)
+[Descargar TallerDesk 1.0.0 para Windows de 64 bits](https://github.com/KevinJHernandez/TallerDesk/releases/download/v1.0.0/TallerDesk-Setup-1.0.0.exe) · [Ver detalles](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v1.0.0)
+
+## Antes de instalar o actualizar
+
+- Necesitas Windows de 64 bits y una cuenta autorizada. El primer acceso requiere internet.
+- Antes de actualizar, espera a que se sincronicen las operaciones pendientes y conserva una copia de tus datos.
+- El trabajo sin conexión utiliza los datos cargados previamente en esa computadora; los pendientes se intentan enviar al reconectar.
+- Las comprobaciones locales de la versión 2 incluyen 36 casos automatizados y compilación. La instalación y la sincronización real deben verificarse en el equipo de destino.
+
+## Sobre el proyecto
+
+TallerDesk utiliza **Electron, JavaScript, HTML, CSS y Firebase**. Incluye almacenamiento local para operaciones pendientes y controles de sincronización.
+
+Este repositorio contiene la presentación y los instaladores públicos. **El código de desarrollo y los datos de los talleres no se incluyen aquí.**
+
+Desarrollado por **Kevin · LionEdge** · [Información y contacto](https://github.com/KevinJHernandez)
