@@ -2,38 +2,38 @@
 
 **Tu taller, en orden.** Aplicación de escritorio para administrar talleres de motocicletas.
 
-![TallerDesk 2.0.0 en una computadora de escritorio](assets/tallerdesk-v2-desktop.png)
+![TallerDesk en una computadora de escritorio](assets/tallerdesk-v2-desktop.png)
 
 Desarrollado por **Kevin · LionEdge**. Organiza la recepción de motocicletas, los servicios, el inventario y los cobros desde una interfaz oscura y minimalista.
 
-![Versión 2.0.2](https://img.shields.io/badge/Versión-2.0.2-EF3038?style=flat-square)
+![Versión 2.0.3](https://img.shields.io/badge/Versión-2.0.3-EF3038?style=flat-square)
 ![Windows 64 bits](https://img.shields.io/badge/Windows-64_bits-24292F?style=flat-square)
 ![Electron](https://img.shields.io/badge/Electron-243341?style=flat-square&logo=electron&logoColor=9FEAF9)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827)
 
-## Nueva versión · 2.0.2
+## Nueva versión · 2.0.3
 
-[![Descargar TallerDesk 2.0.2](https://img.shields.io/badge/Descargar_TallerDesk_2.0.2-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.2/TallerDesk-Setup-2.0.2.exe)
+[![Descargar TallerDesk 2.0.3](https://img.shields.io/badge/Descargar_TallerDesk_2.0.3-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.3/TallerDesk-Setup-2.0.3.exe)
 
-[Ver todos los cambios de la versión 2.0.2](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.2).
+[Ver todos los cambios de la versión 2.0.3](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.3).
 
 **Software comercial.** La descarga es pública; para utilizar TallerDesk necesitas una cuenta autorizada por el desarrollador. Descargar o instalar el programa no activa el acceso. [Solicita información o una demostración](https://github.com/KevinJHernandez).
 
-### Correcciones de la 2.0.2
+### Correcciones de la 2.0.3
 
-- Menú completo en ventanas pequeñas, incluyendo el acceso a la cuenta.
-- Paleta roja predeterminada corregida: los controles ya no quedan negros por falta de color.
-- Inicio con actividad reciente e importes más legibles y espacio aprovechado.
-- Corte ajustado al tamaño disponible, con total visible y detalles desplazables en alturas pequeñas.
-- Comparación de Estadísticas y pestañas de Configuración accesibles al reducir la ventana.
-- Revisión con datos de demostración: 43 pruebas funcionales y 126 comprobaciones de diseño, incluyendo escala de 125 %, cinco colores y formularios con muchos servicios.
+- Botón de terminar corte completo, sin encogerse en laptop, y aviso de cierre más breve.
+- Servicio terminado y servicio registrado con grises consistentes, importes verdes y listas desplazables.
+- Cabecera y pestañas del cliente fijas; Historial y Servicios se desplazan dentro de su propio apartado.
+- Iconos de historial centrados, con rojo para cancelaciones y verde para servicios terminados.
+- Imágenes de presentación actualizadas, sin el número 2.0.0 antiguo.
+- Comprobación con datos de demostración: 43 pruebas funcionales y 150 escenarios de diseño, incluyendo escala de 125 %, cortes vacíos y 18 servicios.
 
 <details>
-<summary>Ver Inicio y Corte en tamaño de laptop</summary>
+<summary>Ver Corte e Historial en tamaño de laptop</summary>
 
-![Inicio en tamaño de laptop, versión 2.0.2](assets/tallerdesk-v202-home-laptop.png)
+![Corte en tamaño de laptop, versión 2.0.3](assets/tallerdesk-v203-cut-laptop.png)
 
-![Corte en tamaño de laptop, versión 2.0.2](assets/tallerdesk-v202-cut-laptop.png)
+![Historial del cliente con cabecera fija, versión 2.0.3](assets/tallerdesk-v203-client-history.png)
 
 Capturas del programa con datos de demostración.
 
@@ -55,18 +55,22 @@ Capturas del programa con datos de demostración.
 
 ### Así se ve
 
-![Ventas de TallerDesk 2.0.0 en una laptop](assets/tallerdesk-v2-laptop.png)
+![Ventas de TallerDesk en una laptop](assets/tallerdesk-v2-laptop.png)
 
 *Montajes de presentación basados en pantallas del programa, con datos de demostración. El color del tema se puede personalizar.*
 
 <details>
 <summary>Ver capturas del programa</summary>
 
-![Inventario de TallerDesk 2.0.0 con stock visible](assets/tallerdesk-v2-inventory.png)
+![Inventario de TallerDesk con stock visible](assets/tallerdesk-v2-inventory.png)
 
-![Ticket de ventas de TallerDesk 2.0.0](assets/tallerdesk-v2-sales.png)
+![Ticket de ventas de TallerDesk](assets/tallerdesk-v2-sales.png)
 
 </details>
+
+## Versión anterior · 2.0.2
+
+[Descargar TallerDesk 2.0.2](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.2/TallerDesk-Setup-2.0.2.exe) · [Ver detalles](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.2)
 
 ## Versión anterior · 2.0.1
 
