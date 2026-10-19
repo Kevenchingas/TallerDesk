@@ -6,25 +6,38 @@
 
 Desarrollado por **Kevin · LionEdge**. Organiza la recepción de motocicletas, los servicios, el inventario y los cobros desde una interfaz oscura y minimalista.
 
-![Versión 2.0.1](https://img.shields.io/badge/Versión-2.0.1-EF3038?style=flat-square)
+![Versión 2.0.2](https://img.shields.io/badge/Versión-2.0.2-EF3038?style=flat-square)
 ![Windows 64 bits](https://img.shields.io/badge/Windows-64_bits-24292F?style=flat-square)
 ![Electron](https://img.shields.io/badge/Electron-243341?style=flat-square&logo=electron&logoColor=9FEAF9)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827)
 
-## Nueva versión · 2.0.1
+## Nueva versión · 2.0.2
 
-[![Descargar TallerDesk 2.0.1](https://img.shields.io/badge/Descargar_TallerDesk_2.0.1-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.1/TallerDesk-Setup-2.0.1.exe)
+[![Descargar TallerDesk 2.0.2](https://img.shields.io/badge/Descargar_TallerDesk_2.0.2-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.2/TallerDesk-Setup-2.0.2.exe)
 
-[Ver todos los cambios de la versión 2.0.1](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.1).
+[Ver todos los cambios de la versión 2.0.2](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.2).
 
 **Software comercial.** La descarga es pública; para utilizar TallerDesk necesitas una cuenta autorizada por el desarrollador. Descargar o instalar el programa no activa el acceso. [Solicita información o una demostración](https://github.com/KevinJHernandez).
 
-### Correcciones de la 2.0.1
+### Correcciones de la 2.0.2
 
-- Servicios iniciados un día y cobrados al siguiente: el ingreso se registra en el corte del día del pago.
-- Actualización del corte vigente al cobrar después de medianoche, sin conservar el estado del día anterior.
-- Botón de terminar servicio e indicadores En proceso con el color del tema elegido.
-- Acciones más compactas para ventanas de laptop.
+- Menú completo en ventanas pequeñas, incluyendo el acceso a la cuenta.
+- Paleta roja predeterminada corregida: los controles ya no quedan negros por falta de color.
+- Inicio con actividad reciente e importes más legibles y espacio aprovechado.
+- Corte ajustado al tamaño disponible, con total visible y detalles desplazables en alturas pequeñas.
+- Comparación de Estadísticas y pestañas de Configuración accesibles al reducir la ventana.
+- Revisión con datos de demostración: 43 pruebas funcionales y 126 comprobaciones de diseño, incluyendo escala de 125 %, cinco colores y formularios con muchos servicios.
+
+<details>
+<summary>Ver Inicio y Corte en tamaño de laptop</summary>
+
+![Inicio en tamaño de laptop, versión 2.0.2](assets/tallerdesk-v202-home-laptop.png)
+
+![Corte en tamaño de laptop, versión 2.0.2](assets/tallerdesk-v202-cut-laptop.png)
+
+Capturas del programa con datos de demostración.
+
+</details>
 
 ### Funciones de la versión 2
 
@@ -54,6 +67,10 @@ Desarrollado por **Kevin · LionEdge**. Organiza la recepción de motocicletas, 
 ![Ticket de ventas de TallerDesk 2.0.0](assets/tallerdesk-v2-sales.png)
 
 </details>
+
+## Versión anterior · 2.0.1
+
+[Descargar TallerDesk 2.0.1](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.1/TallerDesk-Setup-2.0.1.exe) · [Ver detalles](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.1)
 
 ## Versión anterior · 2.0.0
 
