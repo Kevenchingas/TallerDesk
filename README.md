@@ -6,20 +6,27 @@
 
 Desarrollado por **Kevin · LionEdge**. Organiza la recepción de motocicletas, los servicios, el inventario y los cobros desde una interfaz oscura y minimalista.
 
-![Versión 2.0.0](https://img.shields.io/badge/Versión-2.0.0-EF3038?style=flat-square)
+![Versión 2.0.1](https://img.shields.io/badge/Versión-2.0.1-EF3038?style=flat-square)
 ![Windows 64 bits](https://img.shields.io/badge/Windows-64_bits-24292F?style=flat-square)
 ![Electron](https://img.shields.io/badge/Electron-243341?style=flat-square&logo=electron&logoColor=9FEAF9)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=111827)
 
-## Nueva versión · 2.0.0
+## Nueva versión · 2.0.1
 
-[![Descargar TallerDesk 2.0.0](https://img.shields.io/badge/Descargar_TallerDesk_2.0.0-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.0/TallerDesk-Setup-2.0.0.exe)
+[![Descargar TallerDesk 2.0.1](https://img.shields.io/badge/Descargar_TallerDesk_2.0.1-Windows_64_bits-EF3038?style=for-the-badge)](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.1/TallerDesk-Setup-2.0.1.exe)
 
-[Ver todos los cambios de la versión 2.0.0](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.0).
+[Ver todos los cambios de la versión 2.0.1](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.1).
 
 **Software comercial.** La descarga es pública; para utilizar TallerDesk necesitas una cuenta autorizada por el desarrollador. Descargar o instalar el programa no activa el acceso. [Solicita información o una demostración](https://github.com/KevinJHernandez).
 
-### Qué cambió
+### Correcciones de la 2.0.1
+
+- Servicios iniciados un día y cobrados al siguiente: el ingreso se registra en el corte del día del pago.
+- Actualización del corte vigente al cobrar después de medianoche, sin conservar el estado del día anterior.
+- Botón de terminar servicio e indicadores En proceso con el color del tema elegido.
+- Acciones más compactas para ventanas de laptop.
+
+### Funciones de la versión 2
 
 | Apartado | Novedades de la versión 2 |
 |---|---|
@@ -48,6 +55,10 @@ Desarrollado por **Kevin · LionEdge**. Organiza la recepción de motocicletas, 
 
 </details>
 
+## Versión anterior · 2.0.0
+
+[Descargar TallerDesk 2.0.0](https://github.com/KevinJHernandez/TallerDesk/releases/download/v2.0.0/TallerDesk-Setup-2.0.0.exe) · [Ver detalles](https://github.com/KevinJHernandez/TallerDesk/releases/tag/v2.0.0)
+
 ## Versión anterior · 1.0.0
 
 La primera versión permanece disponible como referencia y descarga anterior.
@@ -59,7 +70,9 @@ La primera versión permanece disponible como referencia y descarga anterior.
 - Necesitas Windows de 64 bits y una cuenta autorizada. El primer acceso requiere internet.
 - Antes de actualizar, espera a que se sincronicen las operaciones pendientes y conserva una copia de tus datos.
 - El trabajo sin conexión utiliza los datos cargados previamente en esa computadora; los pendientes se intentan enviar al reconectar.
-- Las comprobaciones locales de la versión 2 incluyen 36 casos automatizados y compilación. La instalación y la sincronización real deben verificarse en el equipo de destino.
+- Las comprobaciones locales de la versión 2 incluyen 43 casos automatizados y compilación. La instalación y la sincronización real deben verificarse en el equipo de destino.
+
+El instalador aún no tiene firma digital de editor. Windows puede mostrar una advertencia de aplicación no reconocida; esta actualización no elimina ese aviso.
 
 ## Sobre el proyecto
 
